@@ -1,0 +1,110 @@
+html body .app.flex-row.align-items-center {
+  height: 100vh;
+}
+
+// ie11 floating footer temp fix, react only
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #root {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*---- Chat New Window ---*/
+
+.msg_box{
+  border:1px solid  #294861;
+  // border-radius: 6px;
+  position: fixed;
+  bottom: 5px;
+  width: 320px;
+  background: white;
+}
+
+.msg_head{  
+  background: #294861;
+  color: white;
+  padding: 0px;
+  font-weight: bold;
+  cursor: pointer;
+  // border-radius: 5px 5px 0px 0px;
+}
+.minimize{
+  float: right;
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+
+.close{
+  float: right;
+  cursor: pointer;
+  position: relative;
+  right: 15px;
+  bottom: 38px;
+  color: #fff;
+}
+
+.fa-close{
+  font-size: 25px;
+    margin-top: 5px;
+}
+.msg_wrap{
+	clear: both;
+  overflow: auto;
+  height: 300px;
+  width: 100%;
+}
+
+.msg_body{
+  display: inline-block;
+	// padding: 0 0 0 10px;
+	vertical-align: top;
+	width: 100%;
+}
+.Message .body{
+  background: #ebebeb none repeat scroll 0 0;
+	border-radius: 0 15px 15px 15px;
+	font-size: 14px;
+	margin: 0;
+	color: #646464;
+	padding: 5px 10px 5px 12px;
+  width: 100%;
+  float: left;
+	width: 80%;
+}
+
+ .me  .body{
+  background:#0465ac;
+	border-radius: 12px 15px 15px 0;
+	font-size: 14px;
+	margin: 0;
+	color: #fff;
+	padding: 5px 10px 5px 12px;
+  width: 100%;
+  float: right;
+	width: 80%;
+}
+
+.Message time{
+    color: #747474;
+    display: block;
+    font-size: 12px;
+    margin: 8px 0 0;
+     position: relative;
+     right:12%;
+     left:2%
+}
+
+.me time{
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+  margin-left: 100px;
+  left: -12%;
+}
+.messagetyping{
+  margin-left: 10px;
+}
+

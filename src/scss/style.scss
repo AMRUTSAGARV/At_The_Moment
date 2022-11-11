@@ -1,0 +1,151 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui.scss";
+
+// Temp fix for reactstrap
+@import '~@coreui/coreui/scss/_dropdown-menu-right.scss';
+
+// If you want to add something do it here
+@import "custom";
+
+// ie fixes
+@import "ie-fix";
+
+
+.app-header {
+    background: #294861;
+}
+
+.dropdown-menu {
+    position: absolute;
+    background: #294861
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+}
+
+.dropdown-item {
+     border-bottom: 0.5px solid #c8ced3;
+}
+
+.profile-pic{
+    border-radius: 50px;
+    width: 50%;
+    margin-top: 28px;
+}
+.user-pic{
+    border-radius: 50px;
+    width: 30%;
+    margin-top: 0px;
+
+}
+
+.data-user{
+    position: absolute;
+    /* top: 20px; */
+    margin-top:8%;
+    margin-left: 10%;
+}
+.data-desg{
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 18%;
+} 
+.chat-info h5{
+    color: white;
+      font-size: 18px;
+      font-weight: 600;
+  }
+  .chat-box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 2px;
+    margin-top: 20px;
+  }
+  .progress-group {
+    display: flex;
+    flex-flow: inherit;
+    margin-bottom: 1rem;
+}
+  .news-info-data{
+    //   overflow-y: scroll;
+    //   height: 60vh;
+    background-color: lightsteelblue;
+   padding: 20px;
+  }
+  .news-button{
+      text-align: center;
+      margin-bottom: 20px;
+  }
+.quotations-data{
+    border: 1px solid none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+
+}
+.Notice-borad-data{
+    border: 1px solid none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+}
+small {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+}
+
+.text-muted {
+    color: #294861 !important;
+}
+
+.password-icon{
+    position: relative;
+    right: 19px;
+    top: 6px;
+    cursor: pointer;
+}
+
+ .task-info-data select{
+    width: 60%;
+    margin-left: 12px;
+    height: 26px;
+    color: white;
+    background: #294861;
+    font-weight: bold;
+
+}
+
+.task-info-data{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+
+}
+
+.task-des-info label{
+    font-size: 15px;
+    color: #294861;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.task-des-info input{
+    border: 1px solid #294861;
+}
+
+
+.task-data label{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.task-data select{
+    width: 40%;
+    margin-left: 20px;
+}

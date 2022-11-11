@@ -1,0 +1,298 @@
+// Here you can add other styles
+
+.assigned-data{
+    border: 1px solid none;
+    background: #294861;
+    color: white;
+    padding: 10px;
+}
+.assigned{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.task-des-info{
+    margin-top: 20px;
+   padding-bottom: 7px;
+}
+.task-des-info input{
+    margin-left: 10px;
+    padding: 9px;
+    width: 88%;
+}
+
+.task-upload input{
+    margin-left: 0px;
+    padding: 9px;
+    width: 85%;
+}
+.task-des-info label{
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+
+.complete-task-info{
+    margin-top: 20px;
+   padding-bottom: 7px;
+   display: flex;
+
+}
+
+.complete-task-info label{
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+
+}
+.md-form .row{
+    background-color: #fff;
+    margin-top: 50px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.complete-task-info #PickerSelectedVal{
+    box-sizing: border-box;
+    width: 30%;
+    font-size: 14px;
+    padding: 1px;
+    border-radius: 5px;
+    height: 25px;
+    background: #294861;
+    color: white;
+    margin-right: 1%;
+    margin-left: 3%;
+
+}
+
+.file-field{
+    color: white;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .upload-button {
+    border: 1px solid  #294861;
+    color: white;
+    background-color:  #294861;
+    font-size: 11px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+  .my-task-submit{
+      text-align: center;
+      margin-top: 20px;
+      
+  }
+  .my-task-submit button{
+    border: 1px solid  #294861;
+    color: white;
+    background-color:  #294861;
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.work-pic{
+    width: 50%;
+    height: 80px;
+margin-top: 5px;
+}
+.task-pic{
+    height: 200px;
+    width: 200px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.task-work{
+    margin-top: 20px;
+}
+.leave-reply{
+    text-align: center;
+}
+.leave-reply input{
+    width: 50%;
+    height: 100px;
+    color: #294861,
+}
+
+/*-----Full Calender----*/
+
+
+body .fc {
+    font-size: 1em;
+    background: white;
+    padding: 10px;
+}
+
+.fc-day-grid-event .fc-content {
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 8px;
+    text-align: center;
+}
+
+.task-des-info input {
+    margin-left: 15px;
+    padding: 9px;
+    width: 89%;
+}
+.leaves-balanace{
+    background-color: #294861;
+    color: white;
+    margin-top: 20px;
+}
+.leaves-data{
+    color: white;
+    font-size: 15px;
+}
+.leaves-planning h6{
+    color: #323232;
+    font-family: auto;
+    cursor: pointer;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+.leave-days h6{
+    color: #323232;
+    font-family: auto;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.leaves-applied .btn-data{
+    font-size: 10px;
+    font-family: auto;
+    background: #294861;
+    color: white;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 25px;
+    border: 1px solid wheat;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.leave-request-full-data:nth-child(even){
+    background: lightgray;
+}
+.leave-request-full-data{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.leaves-request-data{
+    margin-left: 15px;
+}
+
+.leaves-request-data h6{
+    color: #323232;
+    font-family: auto;
+    cursor: pointer; 
+    font-size: 12px;  
+}
+
+.leaves-request-data p span{
+color: #323232;
+font-family: auto;
+cursor: pointer;   
+font-size: 12px;
+}
+
+.leave-request-days h6{
+color: #323232;
+font-family: auto;
+cursor: pointer; 
+font-size: 12px; 
+}
+
+.leaves-request-applied h6{
+color: #323232;
+font-family: auto;
+cursor: pointer; 
+font-size: 12px;
+}
+
+.leaves-request-status h6{
+color: #323232;
+font-family: auto;
+cursor: pointer;
+font-size: 12px;
+}
+
+
+
+.leaves-requests-title h6{
+font-size: 15px;
+font-family: initial;
+color: #fff;
+font-weight: bold;
+border: 1px solid #ccc;
+background: #294861;
+padding: 5px;
+}
+.get-task-status{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.get-task-status:nth-child(even){
+    background: lightgray;
+}
+
+
+.sidebar .sidebar-minimizer {
+    display: none;
+}
+
+.navbar-nav .nav-link {
+    color: #73818f;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.app-header .navbar-nav {
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.assigned-work-data{
+    margin-right: 5px;
+
+}
+
+.get-task-updates{
+    background: #294861;
+    padding-top: 5px
+}
+
+.get-task-updates-date h6{
+    margin-left: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.get-task-updates-data h6{
+    color: white;
+    font-weight: bold;
+}
